@@ -47,6 +47,8 @@ plt.show()
 # 功能5_图形拼接（通过数组合并）
 t1 = np.concatenate((im,im),axis=1)
 t2 = np.concatenate((t1,t1),axis=0)
+plt.imshow(t1)
+plt.show()
 plt.imshow(t2)
 plt.show()
 
